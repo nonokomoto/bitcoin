@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="won" format="2">
+	<advance width="1974"/>
+	<unicode hex="20A9"/>
+	<outline>
+		<contour>
+			<point x="1954" y="965" type="line"/>
+			<point x="31" y="963" type="line"/>
+			<point x="31" y="887" type="line"/>
+			<point x="1954" y="889" type="line"/>
+		</contour>
+		<contour>
+			<point x="1954" y="645" type="line"/>
+			<point x="31" y="643" type="line"/>
+			<point x="31" y="567" type="line"/>
+			<point x="1954" y="569" type="line"/>
+		</contour>
+		<component base="W" xOffset="-6"/>
+	</outline>
+</glyph>

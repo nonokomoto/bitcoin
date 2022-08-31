@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="colonsign" format="2">
+	<advance width="1532"/>
+	<unicode hex="20A1"/>
+	<outline>
+		<contour>
+			<point x="762" y="1597" type="line"/>
+			<point x="434" y="-125" type="line"/>
+			<point x="592" y="-125" type="line"/>
+			<point x="920" y="1597" type="line"/>
+		</contour>
+		<contour>
+			<point x="1012" y="1597" type="line"/>
+			<point x="684" y="-125" type="line"/>
+			<point x="842" y="-125" type="line"/>
+			<point x="1169" y="1597" type="line"/>
+		</contour>
+		<component base="C"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>C</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>C</string>
+		</dict>
+	</lib>
+</glyph>

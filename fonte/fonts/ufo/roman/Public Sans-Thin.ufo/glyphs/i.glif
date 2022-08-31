@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="i" format="2">
+	<advance width="516"/>
+	<unicode hex="0069"/>
+	<anchor x="258" y="0" name="bottom"/>
+	<outline>
+		<contour>
+			<point x="299" y="1059" type="line"/>
+			<point x="219" y="1059" type="line"/>
+			<point x="219" y="0" type="line"/>
+			<point x="299" y="0" type="line"/>
+		</contour>
+		<contour>
+			<point x="307" y="1479" type="line"/>
+			<point x="209" y="1479" type="line"/>
+			<point x="209" y="1356" type="line"/>
+			<point x="307" y="1356" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>=n*1.1</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>=|n*1.1</string>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="circumflexcomb_acutecomb" format="2">
+	<advance width="1115"/>
+	<anchor x="518" y="1059" name="_top"/>
+	<outline>
+		<component base="circumflexcomb"/>
+		<component base="acutecomb.viet" xOffset="725" yOffset="297"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>circumflexcomb</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>circumflexcomb</string>
+		</dict>
+	</lib>
+</glyph>

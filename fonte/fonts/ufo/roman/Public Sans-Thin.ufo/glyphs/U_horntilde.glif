@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Uhorntilde" format="2">
+	<advance width="1558"/>
+	<unicode hex="1EEE"/>
+	<outline>
+		<component base="Uhorn"/>
+		<component base="tildecomb" xOffset="440" yOffset="422"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>Uhorn</string>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="periodcentered" format="2">
+	<advance width="586"/>
+	<unicode hex="00B7"/>
+	<outline>
+		<contour>
+			<point x="463" y="924" type="line"/>
+			<point x="92" y="924" type="line"/>
+			<point x="92" y="567" type="line"/>
+			<point x="463" y="567" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>period</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>period</string>
+		</dict>
+	</lib>
+</glyph>

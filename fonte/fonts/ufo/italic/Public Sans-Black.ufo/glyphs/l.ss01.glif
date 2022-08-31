@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="l.ss01" format="2">
+	<advance width="685"/>
+	<anchor x="388" y="1528" name="top"/>
+	<anchor x="370" y="0" name="bottom"/>
+	<anchor x="882" y="1567" name="topright"/>
+	<outline>
+		<contour>
+			<point x="69" y="0" type="line"/>
+			<point x="468" y="0" type="line"/>
+			<point x="681" y="1522" type="line"/>
+			<point x="282" y="1522" type="line"/>
+		</contour>
+	</outline>
+</glyph>

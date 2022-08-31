@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="__horn" format="2">
+	<advance width="308"/>
+	<anchor x="52" y="901" name="_horn"/>
+	<anchor x="296" y="1085" name="_topright"/>
+	<anchor x="296" y="1085" name="topright"/>
+	<outline>
+		<contour>
+			<point x="52" y="901" type="line"/>
+			<point x="411" y="860"/>
+			<point x="517" y="975"/>
+			<point x="572" y="1309" type="curve"/>
+			<point x="333" y="1309" type="line"/>
+			<point x="275" y="1065"/>
+			<point x="224" y="1081"/>
+			<point x="79" y="1083" type="curve"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.Export</key>
+			<false/>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="circumflexcomb_hookabovecomb" format="2">
+	<advance width="572"/>
+	<anchor x="274" y="1059" name="_top"/>
+	<outline>
+		<component base="circumflexcomb"/>
+		<component base="hookabovecomb" xOffset="-225" yOffset="133"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>circumflexcomb</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>circumflexcomb</string>
+		</dict>
+	</lib>
+</glyph>

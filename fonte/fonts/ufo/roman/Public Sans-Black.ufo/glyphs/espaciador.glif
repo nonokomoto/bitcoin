@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="espaciador" format="2">
+	<advance width="463"/>
+	<outline>
+		<contour>
+			<point x="422" y="1692" type="line"/>
+			<point x="23" y="1692" type="line"/>
+			<point x="23" y="-424" type="line"/>
+			<point x="422" y="-424" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.Export</key>
+			<false/>
+		</dict>
+	</lib>
+</glyph>

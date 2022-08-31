@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="acutecomb.001" format="2">
+	<advance width="285"/>
+	<anchor x="43" y="1059" name="_top"/>
+	<outline>
+		<contour>
+			<point x="153" y="1481" type="line"/>
+			<point x="10" y="1183" type="line"/>
+			<point x="80" y="1183" type="line"/>
+			<point x="274" y="1481" type="line"/>
+		</contour>
+	</outline>
+</glyph>

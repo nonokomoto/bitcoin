@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="questiondown" format="2">
+	<advance width="1008"/>
+	<unicode hex="00BF"/>
+	<outline>
+		<contour>
+			<point x="463" y="901" type="line"/>
+			<point x="588" y="901" type="line"/>
+			<point x="588" y="1059" type="line"/>
+			<point x="463" y="1059" type="line"/>
+		</contour>
+		<contour>
+			<point x="936" y="-94" type="curve"/>
+			<point x="852" y="-53" type="line"/>
+			<point x="807" y="-168"/>
+			<point x="639" y="-266"/>
+			<point x="483" y="-266" type="curve" smooth="yes"/>
+			<point x="283" y="-266"/>
+			<point x="154" y="-158"/>
+			<point x="154" y="14" type="curve" smooth="yes"/>
+			<point x="154" y="326"/>
+			<point x="567" y="338"/>
+			<point x="567" y="760" type="curve"/>
+			<point x="483" y="760" type="line"/>
+			<point x="483" y="367"/>
+			<point x="61" y="356"/>
+			<point x="61" y="14" type="curve" smooth="yes"/>
+			<point x="61" y="-207"/>
+			<point x="225" y="-350"/>
+			<point x="483" y="-350" type="curve" smooth="yes"/>
+			<point x="676" y="-350"/>
+			<point x="850" y="-250"/>
+		</contour>
+	</outline>
+</glyph>

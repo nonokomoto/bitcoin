@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="z" format="2">
+	<advance width="1042"/>
+	<unicode hex="007A"/>
+	<anchor x="732" y="1059" name="top"/>
+	<anchor x="423" y="0" name="bottom"/>
+	<outline>
+		<contour>
+			<point x="-22" y="0" type="line"/>
+			<point x="921" y="0" type="line"/>
+			<point x="959" y="272" type="line"/>
+			<point x="506" y="272" type="line"/>
+			<point x="1042" y="848" type="line"/>
+			<point x="1068" y="1059" type="line"/>
+			<point x="155" y="1059" type="line"/>
+			<point x="117" y="786" type="line"/>
+			<point x="541" y="786" type="line"/>
+			<point x="5" y="211" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>=n/2</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>=u/2</string>
+		</dict>
+	</lib>
+</glyph>
