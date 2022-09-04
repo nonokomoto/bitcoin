@@ -73,6 +73,7 @@ padding: 20px;
     background-repeat: no-repeat;
     position: relative;
     margin: 10px 0px 0px 0px;
+    background-attachment: fixed;
    
 }
    
