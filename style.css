@@ -119,6 +119,7 @@ main .image > h1{
     padding: 10px;
     font-family: var(--logo);
     color: var(--cor1);
+    text-align: center;
     
 }
 
