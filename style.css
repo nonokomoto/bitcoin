@@ -129,9 +129,9 @@ main .image > h1{
 
 .apps p{
     text-align: justify;
-    font-family: var(--p);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #313131;
-    font-size: 1.05em;
+    font-size: 1.15em;
 }
 
 .apps a{
@@ -181,14 +181,14 @@ main .image > h1{
     padding-bottom: 20px;
     display: flex;
     justify-content: space-around;
-    background-color: var(--cor2);
+    background-color: rgb(220, 219, 219);
 
   
 }
 
 footer{
     grid-area: footer;
-    background-color: var(--cor3);
+    background-color: var(--cor4);
     color: white;
     padding: 30px;
     text-align: center;
