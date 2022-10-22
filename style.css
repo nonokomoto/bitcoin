@@ -9,15 +9,17 @@
     src: url("/fonte/RedRose-Bold.ttf")format("truetype");
 }
 @font-face {
-    font-family: "publico-preta";
-    src: url(/fonte/fonts/otf/PublicSans-Medium.otf)format("opentype");
+    font-family: "Rubik-Regular";
+    src: url(/fonte/Rubik-Regular.ttf)format("truetype");
 
 }
 
 *{
-
     margin: 0px;
     padding: 0px;
+}
+body{
+    background-color: #f3f3f3;
 }
 :root{
     --cor1: #F7931A;
@@ -27,7 +29,7 @@
 
     --logo: "rose-bold", sans-serif;
     --h1: arial, verdana, helvetica, sans-serif;
-    --p: "publico-preta", sans-serif;
+    --p: "Rubik-Regular", sans-serif;
 
 }
 
@@ -120,11 +122,16 @@ main .image > h1{
     font-family: var(--logo);
     color: var(--cor1);
     text-align: center;
+    font-size:2.3em;
+    margin-bottom: 10px;
     
 }
 
 .apps p{
     text-align: justify;
+    font-family: var(--p);
+    color: #313131;
+    font-size: 1.05em;
 }
 
 .apps a{
@@ -141,6 +148,7 @@ main .image > h1{
     text-align: center;
     font-size: large;
     font-family: var(--logo);
+    font-size: 1.5em;
 }
 .save >a#link{
         text-decoration: none;
@@ -152,6 +160,8 @@ main .image > h1{
         text-align: center;
         font-size: large;
         font-family: var(--logo);
+        font-size: 1.5em;
+
     
 }
 
