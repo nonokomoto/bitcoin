@@ -37,6 +37,7 @@ header {
     display: inline;
     color: var(--cor1);
     font-family: var(--logo);
+    grid-area: "head";
    
 }
 
@@ -89,7 +90,6 @@ header {
     font-family: var(--h1);
 }
 
-
 main .image > h1{
     text-align: center;
 }
@@ -134,17 +134,17 @@ main .image > h1{
     background-color: var(--cor3);
 }
 .video{
-    
     padding-top: 20px;
     padding-bottom: 20px;
     display: flex;
     justify-content: space-around;
     background-color: var(--cor2);
- 
+
   
 }
 
 footer{
+    grid-area: footer;
     background-color: var(--cor3);
     color: white;
     padding: 10px;
@@ -160,3 +160,6 @@ footer a{
 footer a:hover{
     color: var(--cor2);
 }
+
+
+
