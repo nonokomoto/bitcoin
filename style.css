@@ -205,13 +205,14 @@ main .image > h1{
  
 }
 
-@media (max-width: 550px) {
+@media (max-width: 570px) {
     .video > iframe {
       margin: auto;
       width: 320px; 
       height: 200px;
     }
 }
+
 
 
 .video > h2{
