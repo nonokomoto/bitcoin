@@ -24,7 +24,7 @@ body{
 :root{
     --cor1: #F7931A;
     --cor2: #F2A900;
-    --cor3: #0A65FF;
+    --cor3: #0056d2;
     --cor4: #4D4D4E;
 
     --logo: "rose-bold", sans-serif;
@@ -102,7 +102,7 @@ main .image > h1{
     list-style: none;
     display: flex;
     align-items: center;
-    box-shadow: 3px 3px 10px 5px var(--cor3);
+    box-shadow: 4px 4px 4px 4px #5f9cf1dc;
     padding: 10px;
    }
 
@@ -169,21 +169,48 @@ main .image > h1{
 
 
 
+.buy a#link:link, .save a#link:link{
+    color: var(--cor3);
+}
 
+.buy a#link:visited, .save a#link:visited{
+    color: var(--cor3);
+}
 
+.buy a#link:active, .save a#link:active{
+    color: var(--cor3);
+    text-shadow: #0056d2;
+}
 
 .buy a#link:hover, .save a#link:hover{
     color: var(--cor1);
 
 }
+
+
 .video{
     padding-top: 20px;
     padding-bottom: 20px;
     display: flex;
-    justify-content: space-around;
-    background-color: rgb(220, 219, 219);
+    flex-direction: column;
+    gap: 50px;
+    flex: 1;
+    background-color: #efeff1;
+    box-shadow: 4px 4px 4px 4px #5f9cf1dc;
+}
 
-  
+.video > iframe{
+    margin: auto;
+    padding-top: 50px;
+ 
+}
+
+.video > h2{
+    text-align: center;
+    color: var(--cor1);
+    font-weight: bold;
+    font-size: 1.6em;
+    font-family: var(--h1);
 }
 
 footer{
@@ -202,6 +229,67 @@ footer a{
 
 footer a:hover{
     color: var(--cor2);
+}
+
+.indicator{
+    position:relative;
+    width:50px;
+    height:50px;
+    transform:rotate(45deg);
+    margin: auto;
+}
+
+span{
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    box-sizing:border-box;
+    border:none;
+    border-bottom:3px solid var(--cor1);
+    border-right:3px solid var(--cor1);
+    animation:animate 1s linear infinite;
+}
+    span:nth-child(1){
+      top:-30px;
+      left:-30px;
+      animation-delay:0s;
+    }
+    
+    span:nth-child(2){
+      top:-15px;
+      left:-15px;
+      animation-delay:0.2s;
+    }
+    span:nth-child(3){
+      top:0;
+      left:0;
+      animation-delay:0.4s;
+    }
+    span:nth-child(4){
+      top:15px;
+      left:15px;
+      animation-delay:0.6s;
+    }
+    span:nth-child(5){
+      top:30px;
+      left:30px;
+      animation-delay:0.8s;
+    }
+
+@keyframes animate{
+0%{
+  border-color: var(--cor1);
+  transform:translate(0,0);
+}
+ 20%{
+  border-color: var(--cor1);
+   transform:translate(15px,15px);
+}
+ 20.1%,100%{
+  border-color:var(--cor3);
+}
 }
 
 
