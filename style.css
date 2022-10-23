@@ -43,6 +43,10 @@ header {
    
 }
 
+header h1::first-letter{
+    color: var(--cor3);
+}
+
 .cabeca{
     display: flex;
     justify-content: space-between;
@@ -104,7 +108,7 @@ main .image > h1{
 
    .save{
    flex-grow: 0;
-   flex-shrink: 1;
+   flex-shrink: 1.11;
    flex-basis: auto;
    }
 
@@ -139,6 +143,12 @@ main .image > h1{
     font-size: 1.15em;
 }
 
+.apps p::selection{
+    background-color: #a1bcea;
+    color: white;
+    
+}
+
 .apps a{
     text-decoration: none;
 }
@@ -154,7 +164,13 @@ main .image > h1{
     font-size: large;
     font-family: var(--logo);
     font-size: 1.5em;
+
 }
+
+
+
+
+
 
 .buy a#link:hover, .save a#link:hover{
     color: var(--cor1);
