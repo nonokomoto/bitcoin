@@ -205,6 +205,15 @@ main .image > h1{
  
 }
 
+@media (max-width: 550px) {
+    .video > iframe {
+      margin: auto;
+      width: 320px; 
+      height: 200px;
+    }
+}
+
+
 .video > h2{
     text-align: center;
     color: var(--cor1);
@@ -291,6 +300,7 @@ span{
   border-color:var(--cor3);
 }
 }
+
 
 
 
