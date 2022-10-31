@@ -102,6 +102,7 @@ a.ebook:hover{
 
 .comprar{
     background-color: #0003ff;
+    border: 0px solid black;
 }
 .comprar a{
     color: white;
