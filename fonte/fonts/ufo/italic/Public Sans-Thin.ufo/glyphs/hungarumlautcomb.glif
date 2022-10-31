@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="hungarumlautcomb" format="2">
-	<advance width="453"/>
-	<unicode hex="030B"/>
-	<anchor x="213" y="1059" name="_top"/>
-	<outline>
-		<component base="dblgravecomb" xScale="-1" xOffset="721"/>
-	</outline>
-</glyph>

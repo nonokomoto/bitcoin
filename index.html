@@ -1,61 +1,320 @@
 <!DOCTYPE html>
-<html lang="pt-pt">
+<html lang="pt_PT">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="autor" content="Nonokomoto">
+    <meta name="desctiption" content="Site educativos para iniciantes no mundo bitcoin">
+     <!-- Open Graph Protocol (For share on social media)--> 
+     <meta property="og:Bitcoin para iniciantes" content="Site educativos para iniciantes no mundo bitcoin">
+     <meta property="og:type" content="website">
+     <meta property="og:url" content="https://nonokomoto.github.io/bitcoin">
+     <meta property="og:image" content="image.png">
     <title>Bitcoin para iniciantes</title>
-    <link rel="shortcut icon" href="imagem/favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="img/favicon/favicon-32x32.png" type="image/x-icon">
+
 </head>
-<body><div class="container">
-    
-        <header>
-            <div class="cabeca">
+<body>
+   <!--Menu-->
+    <nav class="navbar p-3 navbar-expand-md bg-light fixed-top active">
+                <a class="navbar-brand" href="#">
+                    <img src="img/Desktop top nav/Logo.png" width="30" height="30" class="d-inline-block align-top imagem" alt="Bitcoin logo">
+                        Para Iniciantes
+                    </a>
+        <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="#inicio">Página Inicial <span class="sr-only">(Página atual)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#recursos">Por onde começar</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#comprar">Onde Comprar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#guardar">Onde Guardar</a>
+                          </li>
+                      </ul>
+                      <div class="d-flex">
+                        <button class=" ebook btn btn-primary btn-large"><a class="ebook" href="img/Bitcoin para iniciantes.pdf" target="_blank">Ebook</a></button>
+                    </div>
+                  </nav>
+        </div>
+<section class="bg-dark text-light p-5 text-center text-sm-star " id="inicio">
+    <div class="container reveal">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <img class="img-fluid w-50 mx-auto" src="img/favicon/bitcoin-img.svg" alt="">
                 <div>
-                    <h1>Sobre bitcoin </h1>
+                    <h1><span class="bitcoin">bitcoin</span> é dinheiro digital.
+                    </h1>
+                    <p class="lead my-4">   Ao contrário das moedas fiduciárias, como o euro, a bitcoin é descentralizada e acessível a todos.</p>
+                    <button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#ebook" type="button" >
+                        <a class="ebook " href="img/Bitcoin para iniciantes.pdf" target="_blank">Baixar-ebook</a>
+                    </button>
                 </div>
-            <div>
-                <a href="imagem/Bitcoin para iniciantes.pdf" class="button" target="_blank">eBook</a>
-            </div>
-            </div>
-        </header>
-        <main>
-            <div class="imagem">
-              </div>
-    
-            <div class="apps">
+            </div> 
+    </div>
+</section>
+<!--Recursos-->
 
-                <div class="buy">
-                    <h1>Onde Comprar bitcoin</h1>
-                    <p>Existem muitas corretor onde podes comprar, ou seja, trocar a tua moeda local por bitcoin. Deves optar sempre por aquelas que garantem maior segurança e transparência.</p>
-                    <p>Eu utilizo a corretora <strong>21bitcoin </strong>para comprar bitcoin.</p>
-                    <a id="link" href="https://21bitcoin.app.link/invite/?code=6NAKW" target="_blank" rel="external" class="comprar"> Comprar</a>
+<section class="p-5 text-dark bg.light" id="recursos">
+    <div class="container reveal">
+        <div class="h1 text-center mb-5">
+            Por onde<span class="comeco"> começar</span>
+        </div>
+        <div class="row">
+            <div class="col col-md-4 mb-3">
+                <div class="card">
+                    <div class="card-body ">
+                        <div class="h1 text-center">
+                            <i class="bi bi-book-half mb-3"></i>
+                        </div>
+                        <h3 class="card-titile mb-3 mt-3 text-center">Sites educacionais </h3>
+
+                        <p class="card-text"><a style="text-decoration: none" href="https://bitcoin.org/files/bitcoin-paper/bitcoin_pt_br.pdf" target="_blank">Bitcoin whitepaper<span class="recursos"> - em português</span></a></p>
+                        <p class="card-text"><a style="text-decoration: none" href="https://en-bitcoin-it.translate.goog/wiki/Main_Page?_x_tr_sl=auto&_x_tr_tl=pt&_x_tr_hl=pt-BR&_x_tr_pto=wapp">Bitcoin Wiki<span class="recursos"> - em português</span></a></p>
+                        <p class="card-text"><a style="text-decoration: none" href="https://bitcoin.org/pt_BR/recursos">Khan Academy<span class="recursos"> - em português</span></a></p>
+                        <p class="card-text"><a style="text-decoration: none" href="">WeUseCoins.com <span class="recursos"> - em português</span></a></p>
+                        <p class="card-text"><a style="text-decoration: none" href="https://bitcoin.org/pt_BR/">Bitcoin.org<span class="recursos">  - em português</span></a></p>
+                        <p class="card-text"><a style="text-decoration: none" href="https://www-lopp-net.translate.goog/bitcoin-information.html?_x_tr_sl=auto&_x_tr_tl=pt&_x_tr_hl=pt-BR&_x_tr_pto=wapp">Mais informações e recursos educacionais</a></p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col col-md-4 mb-3" >
+                <div class="card">
+                    <div class="card-body">
+                        <div class="h1 text-center">
+                            <i class="bi bi-camera-reels mb-3"></i>
+                        </div>
+                        <h3 class="card-titile mb-3 mt-3 text-center">Filmes</h3>
+
+                            <p class="card-text ">
+                                <a style="text-decoration: none" href="https://www.youtube.com/watch?v=XwXLJL-FwCc" target="_blank">A moeda do futuro<span class="recursos">  - Legendado</span></a>
+                            </p>
+                            <p class="card-text">
+                                <a style="text-decoration: none" href="https://www.youtube.com/watch?v=ojiNUovtNc0" target="_blank">Bitcoin: Além da Bolha<span class="recursos">  - Legendado</span></a>
+                            </p>
+                            <p class="card-text">
+                                <a style="text-decoration: none" href="https://www.youtube.com/watch?v=5Aqq9l73IEU" target="_blank">O Fim do dinheiro como conhecemos<span class="recursos"></span></a>
+                            </p>
+                            <p class="card-text">
+                                <a style="text-decoration: none" href="https://www.youtube.com/watch?v=FPazcUZbJrU" target="_blank">A riqueza da próxima geração<span class="recursos"> - em português</a>
+                            </p>
+                            <p class="card-text">
+                                <a style="text-decoration: none" href="https://www.youtube.com/watch?v=UKdlwVeDmks" target="_blank">Bitcoin - Documentario na RTP<span class="recursos"> - Legendado</a>
+                            </p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col col-md-4 mb-3" >
+                <div class="card ">
+                    <div class="card-body">
+                        <div class="h1 text-center"><i class="bi bi-graph-up mb-3"></i>
+                        </div>
+                        <h3 class="card-titile mb-3 mt-3 text-center">Gráficos e estatísticas</h3>
+
+                            <p class="card-text">
+                                <a style="text-decoration: none" href="https://bitinfocharts.com/top-100-richest-bitcoin-addresses.html" target="_blank">Os mais ricos do mundo<span class="recursos"> em Bitcoin</span></a>
+                            </p>
+                            <p class="card-text">
+                                <a style="text-decoration: none" href="https://mempool.space/" target="_blank">Mempool.space<span class="recursos">  - Todas as transações</span></a>
+                            </p>
+                            <p class="card-text">
+                                <a style="text-decoration: none" href="https://bitaps.com/" target="_blank">Bitaps.com<span class="recursos">  - Transações, países, miners e etc</span></a>
+                            </p>
+                            <p class="card-text">
+                                <a style="text-decoration: none" href="https://gobitcoin.io/" target="_blank">Gobitcoin.io<span class="recursos"> - Câmbio e conversões</a>
+                            </p>
+                            <p class="card-text">
+                                <a style="text-decoration: none" href="https://explorer-btc-com.translate.goog/stats/?_x_tr_sl=auto&_x_tr_tl=pt&_x_tr_hl=pt-BR&_x_tr_pto=wapp" target="_blank">Explorer.btc.com<span class="recursos"> - Todas as estatísticas</a>
+                            </p>
+                            <p class="card-text">
+                                <a style="text-decoration: none" href="https://1ml.com/statistics" target="_blank">1ml.com<span class="recursos"> - Lightning Network</a>
+                            </p>
                             
-                </div>
-            
-                <div class="save">
-                    <h1>Onde Guardar bitcoin</h1>
-                    <p>O mesmo para carteiras onde guardar bitcoin,  A oferta é muita, mas o mais importante é a segurança. É importante que escolhas uma onde tenhas na tua posse a chave privada. Nunca esqueças, <q>Not your key, not your</q>.</p>
-                    <p>Eu utilizo a carteira <strong>Muun Wallet </strong> para guardar bitcoin.</p>
-                    <a id="link" href="https://muun.com/" target="_blank" rel="external" class="guardar">Guardar</a>
+                    </div>
                 </div>
             </div>
-           <div class="video">
-                <h2>Turorial Muun Wallet</h2>
+            <div class="col col-md-4 mb-3" >
+                <div class="card" >
+                    <div class="card-body ">
+                        <div class="h1 text-center"><i class="bi bi-folder-check mb-3"></i>
+                        </div>
+                        <h3 class="card-titile mb-3 mt-3 text-center">Diretórios</h3>
 
-                <div class="indicator">
-                    <span></span>
-                    <span></span>
-                  </div>
+                            <p class="card-text">
+                                <a style="text-decoration: none" href="https://bitcoin.org/en/choose-your-wallet?step=5" target="_blank">Carteiras<span class="recursos"> - Wallets</span></a>
+                            </p>
+                            <p class="card-text">
+                                <a style="text-decoration: none" href="https://spendabit.co/" target="_blank">Comércio<span class="recursos">  - Lojas que aceitam bitcoin</span></a>
+                            </p>
+                            <p class="card-tex">
+                                <a style="text-decoration: none" href="https://99bitcoins.com/bitcoin/who-accepts/" target="_blank">99bitcoin.com<span class="recursos"> - Mais lojas que aceitam bitcoin </span></a>
+                            </p>
+                            <p class="card-text">
+                                <a style="text-decoration: none" href="https://buybitcoinworldwide.com/" target="_blank">Corretoras<span class="recursos"></a>
+                            </p>
+                            <p class="card-text">
+                                <a style="text-decoration: none" href="https://btcmap.org/map" target="_blank">btcmap.org<span class="recursos"> - Mapa de locais que aceitam bitcoin</a>
+                            </p>
+                            <p class="card-text">
+                                <a style="text-decoration: none" href="https://docs.google.com/spreadsheets/d/1mabXCaQwt8pxq45xsqosEAUqZ-F6csD3r771DxE9fJE/edit#gid=0" target="_blank">Projectos<span class="recursos"> - Relacionados com bitcoin</a>
+                            </p>     
+                            <p class="card-text">
+                                <a style="text-decoration: none" href="https://www.lopp.net/bitcoin-information/merchant-adoption.html#gift_cards" target="_blank">GiftCards<span class="recursos"> - Relacionados com bitcoin</a>
+                            </p>   
+                    </div>
+                </div>
+            </div>
+            <div class="col col-md-4 mb-3" >
+                <div class="card">
+                    <div class="card-body ">
+                        <div class="h1 text-center"><i class="bi bi-gift mb-3"></i>
+                        </div>
+                        <h3 class="card-titile mb-3 mt-3 text-center">Gift Cards</h3>
 
-                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ietya5TbTus" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-           </div>
-        </main>
-        <footer>
-            <p>&copy; <script>document.write(new Date().getFullYear())</script> Todos direitos reservados| <a href="https://github.com/nonokomoto/" target="_blank">Ney Carvalho</a></p>
-        </footer>
-    
-</div>
+                            <p class="card-text">
+                                <a style="text-decoration: none" href="https://www.bitrefill.com/" target="_blank">Bitrefill.com<span class="recursos"></span></a>
+                            </p>
+                            <p class="card-text">
+                                <a style="text-decoration: none" href="https://dundle.com/" target="_blank">Dundle.com<span class="recursos"></span></a>
+                            </p>
+                            <p class="card-text">
+                                <a style="text-decoration: none" href="https://www.egifter.com/giftcards?type=Digital" target="_blank">Egifter.com<span class="recursos"></span></a>
+                            </p>
+                            <p class="card-text">
+                                <a style="text-decoration: none" href="https://www.gyft.com/buy-gift-cards/" target="_blank">Gyft.com<span class="recursos"></a>
+                            </p>
+                            <p class="card-text">
+                                <a style="text-decoration: none" href="https://foldapp.com/" target="_blank">Foldapp.com<span class="recursos"></a>
+                            </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-md-4 mb-3" >
+                <div class="card">
+                    <div class="card-body ">
+                        <div class="h1 text-center"><i class="bi bi-twitter mb-3"></i>
+                        </div>
+                        <h3 class="card-titile mb-3 mt-3 text-center">Cripto Twitter</h3>
+
+                            <p class="card-text">
+                                <a style="text-decoration: none" href="https://twitter.com/i/lists/967118678205505536" target="_blank">Bitcoin Developers<span class="recursos"></span></a>
+                            </p>
+                            <p class="card-text">
+                                <a style="text-decoration: none" href="https://hive.one/" target="_blank">Pessoas com mais reputação <span class="recursos"> - No bitcoin twitter</span></a>
+                            </p>
+                            <p class="card-text">
+                                <a style="text-decoration: none" href="https://twitter.com/i/lists/1455159460087934986" target="_blank">Bitcoin Venture Capital<span class="recursos"> </span></a>
+                            </p>
+                            <p class="card-text">
+                                <a style="text-decoration: none" href="https://bitcoiners.network/" target="_blank">Bitcoiners Network<span class="recursos"> - Siga bitcoiners e não shitcoiners</span></a>
+                            </p>
+                            <p class="card-text">
+                                <a style="text-decoration: none" href="https://twitter.com/i/lists/1136807955372728320" target="_blank">Bitcoin Artists & Artisans<span class="recursos"></a>
+                            </p>
+                            <p class="card-text">
+                                <a style="text-decoration: none" href="https://twitter.com/i/lists/913370305187471361" target="_blank">Cripto Law<span class="recursos"> </a>
+                            </p>     
+                            <p class="card-text">
+                                <a style="text-decoration: none" href="https://datapool.app/" target="_blank"> Datapool<span class="recursos"> - BTC Twitter Sentiment Analysis</a>
+                            </p>   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Onde comprar bitcoin-->
+<section id="comprar" class="p-5 text-light text-sm-start " style="background-color: black">
+    <div class="container-fluid reveal">
+        <div class="text-center">
+            <h1 class="mb-5">Onde <span class="comeco">comprar</span>
+            </h1>
+        </div>
+        <div class="d-sm-flex align-items-center justify-content-between">
+            <div class="m-3 text-lg-left text-center" >
+                <h1 style="color: #0003ff; font-weight: bold;">21Bitcoin</h1>
+                <h3 class="mt-3">A melhor corretora <span class="bitcoin-only">bitcoin only</span> da europa*</h3>
+                <p class="lead text-justify py-3">
+                    21Bitcoin é uma corretora centralidada, fundada em 2021 pelos alemães Daniel Winklhammer e Dominik Seibold. É uma corretora bitcoin only, ou seja, possibilita apenas a compra da moeda bitcoin.
+                </p>
+                <button class="comprar btn-lg mb-3">
+                    <a href="https://21bitcoin.app/" class="">Baixar a app</a>
+                </button>
+            </div>
+            <div class=" m-3 text-center">
+                <video class="img-fluid video" autoplay loop>
+            <source src="img/21btc.mp4" type="video/mp4">
+            </video>
+            </div>
+        </div>
+        </div>
+    </div>
+</section>
+
+<!--Onde guardar bitcoin-->
+
+<section id="guardar" class="p-5 text-sm-start" style="background-color: white">
+    <div class="container-fluid reveal">
+        <div class="text-center">
+            <h1 class="mb-5">
+                Onde <span class="comeco">Guardar</span>
+            </h1>
+        </div>
+        <div class="d-sm-flex align-items-center justify-content-between">
+            <div class="m-3 text-lg-left text-center">
+                <h1 style="color: #3b7dff; font-weight: bold;" class="">Muun Wallet</h1>
+                <h3 class="mt-3">A melhor <span class="bitcoin-only">self-custody</span> wallet*</h3>
+                <p class="lead text-justify py-3">Muun walltet, na minha , é a melhor carteira de bitcoin only no momento. Fácil de usar, combina transações onchain e lightining, e  acima de tudo, temos acesso a nossa chave privada.</p>
+                <button class="guardar btn-lg mb-3">
+                    <a href="https://muun.com">Baixar app</a>
+                </button>
+            </div>
+            <div class=" m-3 text-center">
+                <video class="img-fluid video" autoplay loop>
+            <source src="img/muun.mp4" type="video/mp4">
+            </video>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--Rodapé-->
+<footer class="bg-dark p-5 text-lignt text-center position-relative">
+    <div class="container">
+        <p class="text-light">&copy;Criado por <a href="https://github.com/nonokomoto" target="_blank">Nonokomoto</a></p>
+        
+          </a>
+        <a href="https://twitter.com/nonokomoto" target="_blank"><i class="bi bi-twitter  mx-1"></i></a>
+        <a href="https://www.linkedin.com/in/ney-carvalho-19200a140/" target="_blank"><i class="bi bi-linkedin mx-1"></i></a>
+        <a href="https://instagram.com/nonokomoto_" target="_blank"><i class="bi bi-instagram mx-1"></i></a>
+        <a href="https://www.facebook.com/nonokomoto" target="_blank"><i class="bi bi-facebook mx-1"></i></a>
+        <a href="#" class="" style="position:absolute;
+        bottom:50px;
+        right:20px"><i class="bi bi-arrow-up-circle h1"></i>
+          </a>
+        
+    </div>
+</footer>
+<script src="script.js"></script>
 </body>
 </html>
