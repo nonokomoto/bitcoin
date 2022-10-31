@@ -164,6 +164,9 @@ span.bitcoin-only{
     color: var(--cor1);
   }
 
-  @media(min-width:500px) {
-    
+  body::before {
+    display: block;
+    content: '';
+    height: 60px;
+    background-color: #212529;
   }
