@@ -163,3 +163,7 @@ span.bitcoin-only{
   footer a.h:hover{
     color: var(--cor1);
   }
+
+  @media(min-width:500px) {
+    
+  }
