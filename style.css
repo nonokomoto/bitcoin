@@ -27,6 +27,9 @@
         --fonte-roboto: 'Roboto', sans-serif;
     
 }
+body section{
+    font-family: var(--fonte-roboto);
+}
 
 
 a.nav-link{
