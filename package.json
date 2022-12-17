@@ -11,5 +11,9 @@
   "dependencies": {
     "bootstrap": "^5.2.2",
     "bootstrap-icons": "^1.9.1"
+  },
+  "devDependencies": {
+    "stylelint": "^14.14.1",
+    "stylelint-config-standard": "^29.0.0"
   }
 }

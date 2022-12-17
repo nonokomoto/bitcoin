@@ -48,7 +48,10 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#guardar">Onde Guardar</a>
-                          </li>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blog">Artigos</a>
+                        </li>
                       </ul>
                       <div class="d-flex m-3">
                         <button class=" ebook btn btn-primary btn-large"><a class="ebook" href="img/Bitcoin para iniciantes.pdf" target="_blank">Ebook</a></button>
@@ -243,8 +246,8 @@
     </div>
 </section>
 <!--Onde comprar bitcoin-->
-<section id="comprar" class="pt-5 text-light text-sm-start " style="background-color: black">
-    <div class="container-fluid reveal">
+<section id="comprar" class="pt-5 text-light text-sm-start pb-5" style="background-color: black">
+    <div class="container reveal">
         <div class="text-center">
             <h1 class="mb-5">Onde <span class="comeco">comprar</span>
             </h1>
@@ -272,8 +275,8 @@
 
 <!--Onde guardar bitcoin-->
 
-<section id="guardar" class="pt-5 text-sm-start" style="background-color: white">
-    <div class="container-fluid reveal">
+<section id="guardar" class="pt-5 pb-5 text-sm-start" style="background-color: white">
+    <div class="container reveal">
         <div class="text-center">
             <h1 class="mb-5">
                 Onde <span class="comeco">Guardar</span>
@@ -298,6 +301,7 @@
 </section>
 
 
+
 <!--Rodapé-->
 <footer class="bg-dark p-5 text-lignt text-center position-relative">
     <div class="container">
@@ -316,5 +320,13 @@
     </div>
 </footer>
 <script src="script.js"></script>
+<script>
+    // Select the "Categoria 1" element and bind a click event to it
+    document.querySelector('#cat1').addEventListener('click', function() {
+      // Select the "Título do card" element and show it
+      document.querySelector('#card1').style.display = 'block';
+    });
+  </script>
+  
 </body>
 </html>

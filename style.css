@@ -14,6 +14,7 @@
 
 
 
+
 :root{
         --cor1: #F7931A;
         --cor2: #27AE60;
@@ -88,7 +89,7 @@ span.recursos{
 color: gray;
 }
 strong{
-    color: black;
+    color: rgb(0, 0, 0);
 
 }
 
@@ -175,3 +176,15 @@ span.bitcoin-only{
     background-color: #212529;
   }
 
+  h3.blog{
+        color: white;
+  }
+
+  li.list-group-item{
+    cursor: pointer;
+  }
+
+  li.list-group-item:hover{
+        color: #F7931A;
+  }
+ 

@@ -1,0 +1,10 @@
+{
+
+    "rules": { 
+
+        "alpha-value-notation": "number", 
+        "selector-type-case": "lower"
+        
+} 
+
+}
